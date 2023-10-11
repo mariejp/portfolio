@@ -1,3 +1,4 @@
+
 .info {
     display: flex;
     flex-direction: row;
@@ -7,8 +8,7 @@
 }
 
 .bgimage {
-    background-image: url(../images/blue.jpg);
-    background-color: #cccccc;
+    background-color: #646464;
     height:max-content;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,22 +36,41 @@
 .header {
     font-size: 200%;
     color: lightblue;
+    background: none;
+    border: 1px lightgray;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    padding: 10px ;
 }
 
 .social {
-    font-size: xx-large;
-    text-decoration: none;
+    font-size: large;
+    color: black;
+    display: block;
+    margin: 10px;
+
 }
 
 .description {
+    font-size: medium;
+    line-height: 1;
     background-color: white;
     opacity: 75%;
-    margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
     border: 1px lightgray;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro {
+    margin-top: 50px;
+    line-height: 2;
+}
+
+.hidden {
+    display: none;
 }
 
 .left {
@@ -61,4 +80,22 @@
 p {
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    font-size: x-large;
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+    display: inline-block;
+}
+
+button {
+    background: none;
+    border: 1px lightgray;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

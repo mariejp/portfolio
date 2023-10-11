@@ -1,0 +1,36 @@
+.bgimage {
+    background-image: url(../images/blue.jpg);
+    background-color: #cccccc;
+    height:max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.name {
+    color: white;
+    max-width: 500%;
+}
+
+.homeContent {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.hello {
+    font-size: 400%;
+    color: white;
+    outline: 1px black;
+}
+
+.portrait {
+    max-width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,19 @@
+.footItem {
+    position: inherit;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    
+}

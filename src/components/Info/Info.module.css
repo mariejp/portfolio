@@ -1,0 +1,64 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    margin: auto;
+    width: 75%;
+}
+
+.bgimage {
+    background-image: url(../images/blue.jpg);
+    background-color: #cccccc;
+    height:max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hello {
+    font-size: 400%;
+    color: lightblue;
+    outline: 1px black;
+}
+
+.right {
+    padding-left: 50px;
+    width: 40%;
+}
+
+.portrait {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    font-size: 200%;
+    color: lightblue;
+}
+
+.social {
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.description {
+    background-color: white;
+    opacity: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px lightgray;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left {
+    width: 70%;
+}
+
+p {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

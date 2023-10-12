@@ -6,15 +6,12 @@ import github from '../images/github.png'
 import Description from './Description'
 
 function SocialMedia(props) {
-
   return (
     <a className="social" href={props.link}>
       <img src={props.image} alt={props.name + ' logo'} style={{width: '10%', verticalAlign: 'middle'}} /> 
       : mariejp</a>  
   )
-  
 }
-
 
 function Info() {
 
@@ -22,7 +19,6 @@ function Info() {
     'C++', 'Python', 'Javascript', 'React', 'Vue',
     'Typescript', 'HTML', 'CSS', 'Github', 'SQL'
   ]
-
   let course_vals = [
     'Data Structures and Alorithms',
     'Discrete Mathematics',
@@ -37,6 +33,7 @@ function Info() {
   return (
     <div className="bgimage">
       <div className="info">
+        
         <div className="left">
           <div className="hello">About Me!</div>
           <div className="description intro">
@@ -44,12 +41,10 @@ function Info() {
               searching for full time Software Engineering roles. I have experience in Web Design and UI,
               but I am open to learning about different focus areas.</p>
           </div>
-          
           <Description item_list={skill_vals} title="Skills" />
-
           <Description item_list={course_vals} title="Courses"/>
-
         </div>
+
         <div className="right">
           <div>
             <img className="portrait" src={me} alt='me'/>

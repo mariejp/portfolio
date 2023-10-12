@@ -10,7 +10,7 @@ function NavBar() {
                 <Link to='/' className={s.navItem}>Home</Link>
                 <Link to='/aboutme' className={s.navItem}>About Me</Link>
                 <Link to='/' className={s.navItem}>Projects</Link>
-                <Link to='/' className={s.navItem}>Experience</Link>
+                <Link to='/experience' className={s.navItem}>Experience</Link>
             </div>
         </nav>
     </div>

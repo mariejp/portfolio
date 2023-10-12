@@ -1,0 +1,75 @@
+@import "rsuite/dist/rsuite.css";
+
+:root {
+    --cornflower-blue: #797EF6;
+    --viking: #4adead;
+    --picton-blue: #1AA7EC;
+    --jacksons-purple: #1E2F97;
+    --background-color: #003F5D;
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hello {
+    font-size: 400%;
+    color: var(--viking);
+    outline: 1px black;
+    display: block;
+}
+
+.exp {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+
+}
+
+.bgimage {
+    background-color: var(--background-color);
+    height:max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.p-group {
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.exp-desc {
+    margin-left : 40px;
+    margin-right: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills {
+    text-align: center;
+    font-size: large;
+    color: var(--cornflower-blue);
+    opacity: 75%;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}
+
+.exp-header {
+    color: var(--cornflower-blue);
+}
+
+img {
+    max-width: 50%;
+    aspect-ratio: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}

@@ -1,16 +1,16 @@
 import React from 'react'
-import s from './HomeContent.module.css'
+import './HomeContent.css'
 import me from '../images/img-1.jpg'
 
 function HomeContent() {
   return (
-    <div className={s.bgimage}>
-        <div className={s.homeContent}>
-            <div className={s.imgcontainer}>
-                <img className={s.portrait} src={me} alt='me'/>
-            </div>
-            <div className={s.hello}>
+    <div className="bgimage">
+        <div className='homeContent'>
+                <img className="portrait" src={me} alt='me'/>
+            <div className='name'>
                     <h2>Marie Phillips</h2>
+                    <br />
+                    <p>Welcome to my portfolio website! Here, you can learn about the projects I have tackled and the industry experience I've gained. </p>
                 </div>
             </div>
     </div>

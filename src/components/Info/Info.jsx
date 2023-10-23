@@ -17,7 +17,8 @@ function Info() {
 
   let skill_vals = [
     'C++', 'Python', 'Javascript', 'React', 'Vue',
-    'Typescript', 'HTML', 'CSS', 'Github', 'SQL'
+    'Typescript', 'HTML', 'CSS', 'Github', 'SQL', 'Swift',
+    'Leadership', 'Agile Development', 'Excel', 'Github'
   ]
   let course_vals = [
     'Data Structures and Alorithms',
@@ -47,7 +48,7 @@ function Info() {
 
         <div className="right">
           <div>
-            <img className="portrait" src={me} alt='me'/>
+            <img className="portrait" style={{maxWidth: '100%'}} src={me} alt='me'/>
           </div>
           <div className="description">
             <SocialMedia image={linkedin} link={linkedin_link} name='LinkedIn'/>

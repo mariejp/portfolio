@@ -1,18 +1,20 @@
 import React from 'react'
-import s from './NavBar.module.css'
-import {Link } from 'react-router-dom'
+import {Nav, Navbar} from 'rsuite'
+import HomeIcon from '@rsuite/icons/legacy/Home';
 
 function NavBar() {
   return (
     <div>
-        <nav className='navBar' >
-            <div className={s.navBar}>
-                <Link to='/' className={s.navItem}>Home</Link>
-                <Link to='/aboutme' className={s.navItem}>About Me</Link>
-                <Link to='/' className={s.navItem}>Projects</Link>
-                <Link to='/experience' className={s.navItem}>Experience</Link>
-            </div>
-        </nav>
+
+      <Navbar appearance='subtle'>
+          <Nav pullRight>
+            <Nav.Item href='/' icon={<HomeIcon />}>Home</Nav.Item>
+            <Nav.Item href='/aboutme'>About Me</Nav.Item>
+            <Nav.Item href='/projects'>Projects</Nav.Item>
+            <Nav.Item href='/experience'>Experience</Nav.Item>
+          </Nav>
+        </Navbar>
+
     </div>
   )
 }

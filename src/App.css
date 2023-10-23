@@ -1,3 +1,14 @@
+@import "rsuite/dist/rsuite.css";
+
+:root {
+    --cornflower-blue: #797EF6;
+    --viking: #4adead;
+    --picton-blue: #1AA7EC;
+    --jacksons-purple: #1E2F97;
+    --background-color: #003F5D;
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bgimage {
+  background-color: var(--background-color);
+  height:max-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.portrait {
+  max-width: 50%;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

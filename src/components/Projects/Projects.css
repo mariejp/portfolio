@@ -1,0 +1,27 @@
+@import "rsuite/dist/rsuite.css";
+
+:root {
+    --cornflower-blue: #797EF6;
+    --viking: #4adead;
+    --picton-blue: #1AA7EC;
+    --jacksons-purple: #1E2F97;
+    --background-color: #003F5D;
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hello {
+    font-size: 400%;
+    color: var(--viking);
+    outline: 1px black;
+    display: block;
+}
+
+.projects {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+
+}

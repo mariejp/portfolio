@@ -6,15 +6,6 @@
     width: 75%;
 }
 
-.bgimage {
-    background-color: #646464;
-    height:max-content;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 .hello {
     font-size: 400%;
     color: lightblue;
@@ -26,18 +17,12 @@
     width: 40%;
 }
 
-.portrait {
-    max-width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .header {
     font-size: 200%;
     color: lightblue;
     background: none;
     border: 1px lightgray;
-    border-radius: 20px;
+    border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 30px;
     padding: 10px ;
@@ -54,12 +39,11 @@
 .description {
     font-size: medium;
     line-height: 1;
-    background-color: white;
-    opacity: 75%;
+    background-color: aliceblue;
     margin-bottom: 50px;
     padding: 20px;
     border: 1px lightgray;
-    border-radius: 20px;
+    border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -95,6 +79,6 @@ li {
 button {
     background: none;
     border: 1px lightgray;
-    border-radius: 20px;
+    border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

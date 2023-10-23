@@ -1,4 +1,5 @@
 .navItem {
+    text-decoration: none;
     position: inherit;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

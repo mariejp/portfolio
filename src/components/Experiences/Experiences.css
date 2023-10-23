@@ -26,15 +26,6 @@
 
 }
 
-.bgimage {
-    background-color: var(--background-color);
-    height:max-content;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 .p-group {
     background-color: aliceblue;
     width: 100%;
@@ -59,7 +50,7 @@
     font-size: large;
     color: var(--cornflower-blue);
     opacity: 75%;
-    border-radius: 20px;
+    border-radius: 6px;
     box-shadow: var(--shadow);
 }
 
@@ -67,9 +58,13 @@
     color: var(--cornflower-blue);
 }
 
-img {
+.exp-img {
     max-width: 50%;
-    aspect-ratio: auto;
-    border-radius: 20px;
+    height: 100%;
+    border-radius: 6px;
     box-shadow: var(--shadow);
+}
+
+.list-item {
+    background-color: aliceblue;
 }
